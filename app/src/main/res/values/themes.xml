@@ -1,8 +1,10 @@
-<resources>
-    <!-- Tema principal de tu aplicación, puede ya existir -->
-    <style name="Theme.L2SaCreD" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Hace que la actividad sea de pantalla completa -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowFullscreen">true</item>
         <item name="android:windowNoTitle">true</item>
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/black</item> <!-- Color de fondo del splash -->
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@null</item> <!-- Desactiva el ícono animado -->
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">@null</item> <!-- Sin color de fondo para el ícono animado -->
     </style>
 </resources>
