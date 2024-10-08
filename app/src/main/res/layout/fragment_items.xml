@@ -7,5 +7,4 @@
     tools:context=".ui.home.presenter.ItemsFragment">
 
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
